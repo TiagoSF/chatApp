@@ -44,5 +44,16 @@ namespace chatApp
         {
 
         }
+
+        private void materialLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonNovaConversa_Click(object sender, EventArgs e)
+        {
+           Chat chat = new Chat();
+            chat.ShowDialog();  
+        }
     }
 }
